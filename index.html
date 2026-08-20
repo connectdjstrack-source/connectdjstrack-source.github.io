@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DJS Track — App Development</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    max-width: 520px;
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 24px;
+    padding: 48px 32px;
+  }
+  .logo { font-size: 56px; margin-bottom: 16px; }
+  h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #6C63FF, #C9A84C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  p.tagline { color: rgba(255,255,255,0.6); margin-bottom: 32px; font-size: 15px; }
+  .apps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  .app {
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.85);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .app .emoji { font-size: 22px; }
+  .app b { display: block; color: #fff; font-size: 14px; }
+  .app span { color: rgba(255,255,255,0.5); font-size: 12px; }
+  footer {
+    margin-top: 8px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">⚡</div>
+    <h1>DJS Track</h1>
+    <p class="tagline">Mobile apps focused on productivity, wellness, and everyday life.</p>
+    <div class="apps">
+      <div class="app"><span class="emoji">📋</span><div><b>BizTrack</b><span>Freelancer client & invoice manager</span></div></div>
+      <div class="app"><span class="emoji">🌸</span><div><b>Hamila Pregnancy Care</b><span>Pregnancy tracker & Islamic wellness companion</span></div></div>
+    </div>
+    <footer>&copy; 2026 DJS Track. All rights reserved.</footer>
+  </div>
+</body>
+</html>
